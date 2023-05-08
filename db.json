@@ -1,0 +1,774 @@
+{
+    "users": [
+        {
+            "id": 53223542,
+            "created_at": "February 2015",
+            "username": "ali123",
+            "name": "Ali Yılmaz",
+            "followers_count": 1500,
+            "friends_count": 120,
+            "location": "İstanbul, Türkiye",
+            "description": "Yazılım geliştirici. Futbol ve müzik tutkunu.",
+            "verified": true,
+            "profile_image": "https://randomuser.me/api/portraits/men/35.jpg",
+            "banner_image": "https://pbs.twimg.com/profile_banners/1302974617582264320/1670269145/1500x500",
+            "gender": "man"
+        },
+        {
+            "id": 1322154,
+            "created_at": "February 2021",
+            "username": "ayse456",
+            "name": "Ayşe Kaya",
+            "followers_count": 2500,
+            "friends_count": 300,
+            "location": "Ankara, Türkiye",
+            "description": "Grafik tasarımcı. Kitap okumaktan hoşlanırım.",
+            "verified": false,
+            "profile_image": "https://randomuser.me/api/portraits/women/35.jpg",
+            "banner_image": "https://pbs.twimg.com/profile_banners/14433686/1648075101/1500x500",
+            "gender": "woman"
+        },
+        {
+            "id": 42145345,
+            "username": "mehmet789",
+            "name": "Mehmet Demir",
+            "followers_count": 500,
+            "friends_count": 200,
+            "location": "İzmir, Türkiye",
+            "description": "Gezgin ve tutkunu. Fotoğrafçılıkla ilgilenirim.",
+            "verified": true,
+            "profile_image": "",
+            "banner_image": "https://pbs.twimg.com/profile_banners/1058791936373522437/1617050816/1500x500",
+            "gender": "man"
+        },
+        {
+            "id": 43243362,
+            "created_at": "February 2019",
+            "username": "aylin12",
+            "name": "Aylin Şahin",
+            "followers_count": 10000,
+            "friends_count": 450,
+            "location": "Bursa, Türkiye",
+            "description": "Moda ve güzellik blogger'ı. En son trendleri takip ederim.",
+            "verified": true,
+            "profile_image": "https://randomuser.me/api/portraits/women/29.jpg",
+            "banner_image": "https://pbs.twimg.com/profile_banners/172102714/1553175747/1500x500",
+            "gender": "woman"
+        },
+        {
+            "id": 5324322123,
+            "created_at": "February 2019",
+            "username": "emre34",
+            "name": "Emre Yıldız",
+            "followers_count": 3500,
+            "friends_count": 600,
+            "location": "Adana, Türkiye",
+            "description": "Spor tutkunu. Fitness ve sağlıklı yaşam konularında içerik üretirim.",
+            "verified": false,
+            "profile_image": "https://randomuser.me/api/portraits/men/29.jpg",
+            "banner_image": "https://pbs.twimg.com/profile_banners/1203471762/1398337728/1500x500",
+            "gender": "man"
+        },
+        {
+            "id": 254765,
+            "created_at": "July 2020",
+            "username": "deniz56",
+            "name": "Deniz Çelik",
+            "followers_count": 800,
+            "friends_count": 300,
+            "location": "Antalya, Türkiye",
+            "description": "Yemek blogu yazarı ve şef adayı. Tariflerimi paylaşırım.",
+            "verified": false,
+            "profile_image": "https://randomuser.me/api/portraits/men/24.jpg",
+            "banner_image": "",
+            "gender": "man"
+        },
+        {
+            "id": 243267,
+            "created_at": "June 2020",
+            "username": "can1985",
+            "name": "Can Karadeniz",
+            "followers_count": 2000,
+            "friends_count": 700,
+            "location": "İzmir, Türkiye",
+            "description": "Müzik prodüktörü ve gitarist. Yaratıcılığımı paylaşıyorum.",
+            "verified": true,
+            "profile_image": "",
+            "banner_image": "",
+            "gender": "man"
+        },
+        {
+            "id": 32578434,
+            "created_at": "May 2020",
+            "username": "elif22",
+            "name": "Elif Aksoy",
+            "followers_count": 1800,
+            "friends_count": 400,
+            "location": "Ankara, Türkiye",
+            "description": "Edebiyat meraklısı. Kitap yorumları yaparım.",
+            "verified": false,
+            "profile_image": "https://randomuser.me/api/portraits/women/44.jpg",
+            "banner_image": "https://pbs.twimg.com/profile_banners/754089946089160704/1669626373/1500x500",
+            "gender": "woman"
+        },
+        {
+            "id": 12367573,
+            "created_at": "January 2020",
+            "username": "serkan1980",
+            "name": "Serkan Öztürk",
+            "followers_count": 2800,
+            "friends_count": 550,
+            "location": "İstanbul, Türkiye",
+            "description": "Pazarlama uzmanı ve dijital stratejist. Yenilikçi fikirlerin peşindeyim.",
+            "verified": true,
+            "profile_image": "https://randomuser.me/api/portraits/men/97.jpg",
+            "banner_image": "",
+            "gender": "man"
+        },
+        {
+            "id": 53786543,
+            "created_at": "February 2020",
+            "username": "eda_g",
+            "name": "Eda Güner",
+            "followers_count": 1200,
+            "friends_count": 250,
+            "location": "İzmir, Türkiye",
+            "description": "Sanatsever ve seyahat tutkunu. Dünyayı keşfetmek için çıktığım yolculuğu paylaşıyorum.",
+            "verified": false,
+            "profile_image": "https://randomuser.me/api/portraits/women/93.jpg",
+            "banner_image": "",
+            "gender": "woman"
+        }
+    ],
+    "tweets": [
+        {
+            "created_at": "05/05/2022",
+            "id": 1390038339971630080,
+            "text": "Bugün İstanbul'daki Boğaz manzaralı restoranda muhteşem bir yemek yedim. Herkese tavsiye ederim! 🍽️",
+            "user": {
+                "name": "Ayşe Yılmaz",
+                "screen_name": "ayseylmz",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 5000,
+                "friends_count": 1000,
+                "profile_photo": "https://randomuser.me/api/portraits/women/83.jpg"
+            },
+            "place": {
+                "name": "Boğaz Restoranı",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0269,
+                    28.9816
+                ]
+            }
+        },
+        {
+            "created_at": "22/03/2022",
+            "id": 1384183857816148480,
+            "text": "Paris'te yeni yerler keşfetmek için sabırsızlanıyorum! 🇫🇷",
+            "user": {
+                "name": "Ahmet Yılmaz",
+                "screen_name": "ahmety",
+                "location": "Ankara, Türkiye",
+                "followers_count": 10000,
+                "friends_count": 2000,
+                "profile_photo": "https://randomuser.me/api/portraits/men/42.jpg"
+            },
+            "place": {
+                "name": "Paris",
+                "country": "Fransa",
+                "city": "Paris",
+                "coordinates": [
+                    48.8566,
+                    2.3522
+                ]
+            }
+        },
+        {
+            "created_at": "24/06/2023",
+            "id": 1404539463777334788,
+            "text": "Bugün Türkiye'deki yeni bir müzeyi ziyaret ettim. Çok etkilendim ve kesinlikle tavsiye ederim! 🎨",
+            "user": {
+                "name": "Deniz Yıldız",
+                "screen_name": "denizyldz",
+                "location": "İzmir, Türkiye",
+                "followers_count": 8000,
+                "friends_count": 1500,
+                "profile_photo": "https://randomuser.me/api/portraits/women/81.jpg"
+            },
+            "place": {
+                "name": "Sanat Müzesi",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0082,
+                    28.9784
+                ]
+            }
+        },
+        {
+            "created_at": "21/01/2024",
+            "id": 1464417970198478340,
+            "text": "Güzel bir gün ve güzel bir manzara 🌅 #tatil #deniz #sahil #mavi",
+            "user": {
+                "id": 123456789,
+                "name": "Ayşe Yılmaz",
+                "screen_name": "ayseyilmaz",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 250,
+                "friends_count": 150,
+                "profile_photo": "https://randomuser.me/api/portraits/women/53.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "tatil",
+                        "indices": [
+                            30,
+                            36
+                        ]
+                    },
+                    {
+                        "text": "deniz",
+                        "indices": [
+                            37,
+                            43
+                        ]
+                    },
+                    {
+                        "text": "sahil",
+                        "indices": [
+                            44,
+                            50
+                        ]
+                    },
+                    {
+                        "text": "mavi",
+                        "indices": [
+                            51,
+                            56
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "26/02/2022",
+            "id": 1480080186435408384,
+            "text": "Bugün okulda bir projeyi tamamladık, yorucu ama eğlenceliydi 📚 #okul #proje #eğitim #öğrenme",
+            "user": {
+                "id": 987654321,
+                "name": "Can Karaca",
+                "screen_name": "cankaraca",
+                "location": "Ankara, Türkiye",
+                "followers_count": 500,
+                "friends_count": 300,
+                "profile_photo": "https://randomuser.me/api/portraits/men/33.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "okul",
+                        "indices": [
+                            53,
+                            58
+                        ]
+                    },
+                    {
+                        "text": "proje",
+                        "indices": [
+                            59,
+                            65
+                        ]
+                    },
+                    {
+                        "text": "eğitim",
+                        "indices": [
+                            66,
+                            73
+                        ]
+                    },
+                    {
+                        "text": "öğrenme",
+                        "indices": [
+                            74,
+                            82
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "02/09/2022",
+            "id": 1490140118000416768,
+            "text": "Bugün biraz spor yaptım, kendimi iyi hissediyorum 💪🏋️‍♀️ #spor #sağlık #fitness",
+            "user": {
+                "id": 555555555,
+                "name": "Ali Öztürk",
+                "screen_name": "aliozturk",
+                "location": "İzmir, Türkiye",
+                "followers_count": 1000,
+                "friends_count": 800,
+                "profile_photo": "https://randomuser.me/api/portraits/men/35.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "spor",
+                        "indices": [
+                            50,
+                            55
+                        ]
+                    },
+                    {
+                        "text": "sağlık",
+                        "indices": [
+                            56,
+                            63
+                        ]
+                    },
+                    {
+                        "text": "fitness",
+                        "indices": [
+                            64,
+                            72
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "06/04/2024",
+            "id": 1490399509521202689,
+            "text": "Bugün yeni bir kitap aldım, mutluyum! 📚 #kitap #okumak #mutluluk",
+            "user": {
+                "id": 987654321,
+                "name": "Ebru Güneş",
+                "screen_name": "ebrugunes",
+                "location": "Ankara, Türkiye",
+                "followers_count": 500,
+                "friends_count": 300,
+                "profile_photo": "https://randomuser.me/api/portraits/women/35.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "kitap",
+                        "indices": [
+                            33,
+                            39
+                        ]
+                    },
+                    {
+                        "text": "okumak",
+                        "indices": [
+                            40,
+                            47
+                        ]
+                    },
+                    {
+                        "text": "mutluluk",
+                        "indices": [
+                            48,
+                            57
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "09/05/2023",
+            "id": 1490130267652461568,
+            "text": "Bugün iş yerinde güzel bir proje tamamladık! 💼 #iş #proje #başarı",
+            "user": {
+                "id": 123456789,
+                "name": "Ahmet Demir",
+                "screen_name": "ahmetdemir",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 1000,
+                "friends_count": 800,
+                "profile_photo": "https://randomuser.me/api/portraits/men/54.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "iş",
+                        "indices": [
+                            40,
+                            43
+                        ]
+                    },
+                    {
+                        "text": "proje",
+                        "indices": [
+                            44,
+                            50
+                        ]
+                    },
+                    {
+                        "text": "başarı",
+                        "indices": [
+                            51,
+                            58
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "01/05/2023",
+            "id": 1489821536671010305,
+            "text": "Bugün uzun bir yürüyüş yaptım, hava çok güzeldi! 🚶‍♀️☀️ #yürüyüş #sağlık #doğa",
+            "user": {
+                "id": 2468101214,
+                "name": "Merve Yılmaz",
+                "screen_name": "mervyilmaz",
+                "location": "İzmir, Türkiye",
+                "followers_count": 800,
+                "friends_count": 500,
+                "profile_photo": "https://randomuser.me/api/portraits/women/21.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "yürüyüş",
+                        "indices": [
+                            46,
+                            53
+                        ]
+                    },
+                    {
+                        "text": "sağlık",
+                        "indices": [
+                            54,
+                            61
+                        ]
+                    },
+                    {
+                        "text": "doğa",
+                        "indices": [
+                            62,
+                            67
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "09/08/2023",
+            "id": 1490640647987341827,
+            "text": "Bugün sevdiğim bir arkadaşımla buluştum, uzun zamandır görüşememiştik! ❤️ #arkadaşlık #mutluluk #buluşma",
+            "user": {
+                "id": 135792468,
+                "name": "Ayşe Can",
+                "screen_name": "aysecan",
+                "location": "Ankara, Türkiye",
+                "followers_count": 1500,
+                "friends_count": 1200,
+                "profile_photo": "https://randomuser.me/api/portraits/women/89.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "arkadaşlık",
+                        "indices": [
+                            67,
+                            78
+                        ]
+                    },
+                    {
+                        "text": "mutluluk",
+                        "indices": [
+                            79,
+                            88
+                        ]
+                    },
+                    {
+                        "text": "buluşma",
+                        "indices": [
+                            89,
+                            97
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "11/11/2023",
+            "id": 1490502022518656001,
+            "text": "Bugün yeni bir restoranda yemek yedim, lezzetlerine hayran kaldım! 🍽️👌 #restoran #yemek #lezzet",
+            "user": {
+                "id": 246824680,
+                "name": "Deniz Yılmaz",
+                "screen_name": "denizylmz",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 2500,
+                "friends_count": 2000,
+                "profile_photo": "https://randomuser.me/api/portraits/women/30.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "restoran",
+                        "indices": [
+                            63,
+                            72
+                        ]
+                    },
+                    {
+                        "text": "yemek",
+                        "indices": [
+                            73,
+                            79
+                        ]
+                    },
+                    {
+                        "text": "lezzet",
+                        "indices": [
+                            80,
+                            87
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "03/09/2023",
+            "id": 1490218881268764673,
+            "text": "Bugün güzel bir film izledim, çok etkilendim! 🎬👍 #film #sinema #etkileyici",
+            "user": {
+                "id": 369258147,
+                "name": "Can Gürkan",
+                "screen_name": "cangurkan",
+                "location": "Bursa, Türkiye",
+                "followers_count": 900,
+                "friends_count": 700,
+                "profile_photo": "https://randomuser.me/api/portraits/men/83.jpg"
+            },
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "film",
+                        "indices": [
+                            49,
+                            54
+                        ]
+                    },
+                    {
+                        "text": "sinema",
+                        "indices": [
+                            55,
+                            62
+                        ]
+                    },
+                    {
+                        "text": "etkileyici",
+                        "indices": [
+                            63,
+                            74
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "created_at": "09/05/2023",
+            "id": 1512517789357621768,
+            "text": "Bugün İstanbul Modern Sanat Müzesi'ndeki sergiyi gezmek için harika bir gün geçirdim. Sanat eserleri beni büyüledi! 🎨",
+            "user": {
+                "name": "Merve Aksoy",
+                "screen_name": "merveaksoy",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 5500,
+                "friends_count": 1100,
+                "profile_photo": "https://randomuser.me/api/portraits/women/65.jpg"
+            },
+            "place": {
+                "name": "İstanbul Modern Sanat Müzesi",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0256,
+                    28.9768
+                ]
+            }
+        },
+        {
+            "created_at": "09/08/2023",
+            "id": 1512517789357621769,
+            "text": "Bugün Ankara'daki Ulus Meydanı'nda tarihi bir yürüyüş yaptım. Geçmişin izlerini takip etmek çok etkileyiciydi! 👣",
+            "user": {
+                "name": "Can Yılmaz",
+                "screen_name": "canyilmaz",
+                "location": "Ankara, Türkiye",
+                "followers_count": 4200,
+                "friends_count": 1000,
+                "profile_photo": "https://randomuser.me/api/portraits/men/43.jpg"
+            },
+            "place": {
+                "name": "Ulus Meydanı",
+                "country": "Türkiye",
+                "city": "Ankara",
+                "coordinates": [
+                    39.9464,
+                    32.8564
+                ]
+            }
+        },
+        {
+            "created_at": "09/05/2021",
+            "id": 1512517789357621770,
+            "text": "Bugün İzmir'deki Kordon'da güneşin tadını çıkardım. Deniz manzarası ve serin esinti harikaydı! ☀️🌊",
+            "user": {
+                "name": "Ceren Şensoy",
+                "screen_name": "cerensensoy",
+                "location": "İzmir, Türkiye",
+                "followers_count": 3200,
+                "friends_count": 850,
+                "profile_photo": "https://randomuser.me/api/portraits/women/41.jpg"
+            },
+            "place": {
+                "name": "İzmir Kordon",
+                "country": "Türkiye",
+                "city": "İzmir",
+                "coordinates": [
+                    38.4184,
+                    27.1287
+                ]
+            }
+        },
+        {
+            "created_at": "16/05/2023",
+            "id": 1512517789357621772,
+            "text": "Bugün ekonomi konusunda önemli bir konferansa katıldım. Uzmanlar, küresel ekonomik büyüme ve ticaretin geleceği hakkında ilginç perspektifler sundular. 💼💱",
+            "user": {
+                "name": "Emre Yıldız",
+                "screen_name": "emreyildiz",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 6500,
+                "friends_count": 1200,
+                "profile_photo": "https://randomuser.me/api/portraits/men/87.jpg"
+            },
+            "place": {
+                "name": "Kongre Merkezi",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0053,
+                    28.9769
+                ]
+            }
+        },
+        {
+            "created_at": "14/05/2023",
+            "id": 1512517789357621773,
+            "text": "Bugün siyasetin önemli isimlerinden biriyle röportaj yaptım. Tartıştığımız konular ülkenin geleceği açısından büyük önem taşıyor. 🗣️📰",
+            "user": {
+                "name": "Gizem Atalay",
+                "screen_name": "gizematalay",
+                "location": "Ankara, Türkiye",
+                "followers_count": 4500,
+                "friends_count": 950,
+                "profile_photo": "https://randomuser.me/api/portraits/women/77.jpg"
+            },
+            "place": {
+                "name": "TV Stüdyosu",
+                "country": "Türkiye",
+                "city": "Ankara",
+                "coordinates": [
+                    39.9337,
+                    32.8597
+                ]
+            }
+        },
+        {
+            "created_at": "09/11/2023",
+            "id": 1512517789357621774,
+            "text": "Bugün dünya politikasında önemli bir gelişmeyi takip ettim. Uluslararası ilişkiler açısından dengelerin değiştiği bir sürece tanıklık ediyoruz. 🌍🌐",
+            "user": {
+                "name": "Selim Arıkan",
+                "screen_name": "selimarikan",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 5800,
+                "friends_count": 1100,
+                "profile_photo": "https://randomuser.me/api/portraits/men/61.jpg"
+            },
+            "place": {
+                "name": "Haber Merkezi",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0082,
+                    28.9784
+                ]
+            }
+        },
+        {
+            "created_at": "28/05/2023",
+            "id": 1512517789357621776,
+            "text": "Bugün enerji politikaları üzerine bir konferansa katıldım. Sürdürülebilir enerji kaynakları ve iklim değişikliği konuları üzerinde önemli tartışmalar gerçekleştirildi. ⚡️🌍",
+            "user": {
+                "name": "Ayşe Kara",
+                "screen_name": "aysekara",
+                "location": "Ankara, Türkiye",
+                "followers_count": 4200,
+                "friends_count": 950,
+                "profile_photo": "https://randomuser.me/api/portraits/women/29.jpg"
+            },
+            "place": {
+                "name": "Kongre Merkezi",
+                "country": "Türkiye",
+                "city": "Ankara",
+                "coordinates": [
+                    39.9334,
+                    32.8597
+                ]
+            }
+        },
+        {
+            "created_at": "30/05/2023",
+            "id": 1512517789357621777,
+            "text": "Bugün ekonomik dengeler ve küresel ticaret politikaları üzerine bir panelde konuşmacı olarak yer aldım. Katılımcılarla önemli fikir alışverişleri yaptık. 💼💱",
+            "user": {
+                "name": "Kerem Demir",
+                "screen_name": "keremdemir",
+                "location": "İstanbul, Türkiye",
+                "followers_count": 6800,
+                "friends_count": 1250,
+                "profile_photo": "https://randomuser.me/api/portraits/men/19.jpg"
+            },
+            "place": {
+                "name": "Konferans Salonu",
+                "country": "Türkiye",
+                "city": "İstanbul",
+                "coordinates": [
+                    41.0269,
+                    28.9816
+                ]
+            }
+        },
+        {
+            "created_at": "09/05/2024",
+            "id": 1512517789357621778,
+            "text": "Bugün uluslararası ilişkiler alanında uzman bir akademisyenle röportaj yaptım. Dünya siyasetindeki değişimler ve bölgesel dinamikler hakkında ilginç görüşler paylaştı. 🗣️🌍",
+            "user": {
+                "name": "Elif Kaya",
+                "screen_name": "elifkaya",
+                "location": "Ankara, Türkiye",
+                "followers_count": 3800,
+                "friends_count": 850,
+                "profile_photo": "https://randomuser.me/api/portraits/women/63.jpg"
+            },
+            "place": {
+                "name": "Üniversite Kampüsü",
+                "country": "Türkiye",
+                "city": "Ankara",
+                "coordinates": [
+                    39.8647,
+                    32.7466
+                ]
+            }
+        }
+    ]
+}
