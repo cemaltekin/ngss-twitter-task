@@ -1,6 +1,6 @@
 <template>
   <h2 class="text-2xl font-semibold text-gray-700 dark:text-white">
-    Kullanıcı profilini görmek için seçim yapmanız gerekir.
+    To see the user profile, you have to make a selection.
   </h2>
   <div class="pb-10 mt-5">
     <div
@@ -16,7 +16,7 @@
       class="w-full p-5 bg-white rounded-lg outline-none dark:bg-gray-600 dark:text-white"
       @change="userFilter"
     >
-      <option value="#" selected>Seçim yapınız...</option>
+      <option value="#" selected>Make Your Choice...</option>
       <option :value="user.id" v-for="user in twitterUsers" :key="user.id">
         {{ user.id }} - {{ user.name }}
       </option>

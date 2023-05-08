@@ -4,7 +4,7 @@
       <div
         class="w-full p-5 transition-shadow bg-white rounded-lg dark:bg-gray-600 dark:text-white hover:shadow-xl"
       >
-        <h2 class="mb-5">Kullanıcı Cinsiyet Dağılımı</h2>
+        <h2 class="mb-5">User Gender Distribution</h2>
         <div
           class="flex items-center justify-center"
           v-if="loading || !twitterUsers.length"
@@ -16,7 +16,7 @@
       <div
         class="w-full p-5 transition-shadow bg-white rounded-lg hover:shadow-xl dark:bg-gray-600 dark:text-white"
       >
-        <h2 class="mb-5">Kullanıcıların Profil Onay Dağılımı</h2>
+        <h2 class="mb-5">User Profile Approval Distribution</h2>
         <div
           class="flex items-center justify-center"
           v-if="loading || !twitterUsers.length"
@@ -29,7 +29,7 @@
     <div
       class="w-full p-5 transition-shadow bg-white rounded-lg hover:shadow-xl dark:bg-gray-600 dark:text-white"
     >
-      <h2 class="mb-5">Kullanıcı Şehir Dağılımı</h2>
+      <h2 class="mb-5">User City Distribution</h2>
       <div
         class="flex items-center justify-center"
         v-if="loading || !twitterUsers.length"

@@ -69,7 +69,7 @@ export default createStore({
         commit('setUser', user);
         localStorage.setItem('user', JSON.stringify(user));
 
-        createToast(`Google ile giriş yapıldı: ${user.displayName}`, {
+        createToast(`Signed in with Google: ${user.displayName}`, {
           position: 'top-right',
           type: 'success',
           transition: 'zoom',
@@ -92,18 +92,18 @@ export default createStore({
         localStorage.setItem('user', JSON.stringify(user));
         commit('setUser', user);
         commit('clearError');
-        createToast(`Hoşgeldin ${user.displayName} kayıt işlemin başarılı`,
+        createToast(`Welcome ${user.displayName}, your registration is successful`,
           {
             position: 'top-right',
             type: 'success',
             transition: 'zoom',
           });
       } catch (error) {
-        let errorMessage = 'Kayıt işlemi sırasında bir hata oluştu.'; 
+        let errorMessage = 'An error occurred during the registration process.'; 
         if (error.code === 'auth/email-already-in-use') {
-          errorMessage = 'Bu e-posta zaten kullanılıyor.';
+          errorMessage = 'This email is already in use.';
         } else if (error.code === 'auth/weak-password') {
-          errorMessage = 'Zayıf bir şifre kullandınız. Daha güçlü bir şifre seçin.';
+          errorMessage = 'You used a weak password. Choose a stronger password.';
         }
 
         createToast(errorMessage,
@@ -129,11 +129,11 @@ export default createStore({
             transition: 'zoom',
           })
       } catch (error) {
-        let errorMessage = 'Giriş işlemi sırasında bir hata oluştu.'; 
+        let errorMessage = 'An error occurred during the login process.'; 
         if (error.code === 'auth/user-not-found') {
-          errorMessage = 'Bu kullanıcı bulunamadı.';
+          errorMessage = 'This user was not found.';
         } else if (error.code === 'auth/wrong-password') {
-          errorMessage = 'Yanlış şifre girdiniz.';
+          errorMessage = 'You entered the wrong password.';
         }
 
         createToast(errorMessage,
@@ -159,7 +159,7 @@ export default createStore({
         commit('setUser', null);
         localStorage.removeItem('user');
         commit('clearError');
-        createToast(`Çıkış yaptınız tekrar giriş yapabilmeniz için giriş sayfasına yönlendirildiniz`,
+        createToast(`You are logged out and you are redirected to the login page so you can log in again`,
           {
             position: 'top-right',
             type: 'warning',

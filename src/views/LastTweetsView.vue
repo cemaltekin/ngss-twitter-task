@@ -1,6 +1,6 @@
 <template>
   <h2 class="text-2xl font-semibold text-gray-700 dark:text-white">
-    Tarihe Göre Son 10 Tweet
+    Last 10 Tweets by Date
   </h2>
   <div class="flex items-center justify-center" v-if="loading || !tweets.length">
     <Spinner />

@@ -9,7 +9,7 @@
       to="/"
     >
       <font-awesome-icon icon="fa-solid fa-home" />
-      <span class="hidden md:block">Anasayfa</span>
+      <span class="hidden md:block">Dashboard</span>
     </router-link>
     <router-link
       active-class="text-gray-700 bg-white"
@@ -17,7 +17,7 @@
       to="/user-details"
     >
       <font-awesome-icon icon="fa-solid fa-user" />
-      <span class="hidden md:block">Kullanıcı Detayları</span>
+      <span class="hidden md:block">User Details</span>
     </router-link>
     <router-link
       active-class="text-gray-700 bg-white"
@@ -25,7 +25,7 @@
       to="/last-tweets"
     >
       <font-awesome-icon icon="fa-brands fa-twitter" />
-      <span class="hidden md:block">Son Tweetler</span>
+      <span class="hidden md:block">Last Tweets</span>
     </router-link>
     <!--dark mode-->
     <div class="pt-5 mt-auto">
