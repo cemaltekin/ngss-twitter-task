@@ -10,7 +10,7 @@
 
 ## uygulamayı 'npm run serve' komutu ile çalıştırabilirsiniz.
 
-## verilerin yüklenmesi için json-server çalışmalı bunun için package.json içindeki db komutunu 'npm run db' ile çalıştırabilirsiniz. json-server'dan verilerin gelmesi için localhos:3000 sunucunuzun boşta olması gerekiyor. Eğer veriler düzgün şekilde yüklenmezse yada fake db çalışmıyorsa verilerin olması gerektiği yerde spinner dönecektir.
+## verilerin yüklenmesi için json-server çalışmalı bunun için package.json içindeki db komutunu 'npm run db' ile çalıştırabilirsiniz. json-server'dan verilerin gelmesi için localhost:3000 sunucunuzun boşta olması gerekiyor. Eğer veriler düzgün şekilde yüklenmezse yada fake db çalışmıyorsa verilerin olması gerektiği yerde spinner dönecektir.
 
 ## json serverdaki tüm datalar yapay zeka ile oluşturuldu users ve tweets adında 2 adet collection var.
 
